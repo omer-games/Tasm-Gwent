@@ -1,6 +1,6 @@
 # TASM Gwent
 
-![Gameplay Screenshot](screenshot.png)
+![Gameplay Screenshot](https://github.com/omer-games/Tasm-Gwent/blob/main/Screenshot.png)
 
 TASM Gwent is a fully custom card game inspired by **Gwent from The Witcher 3: Wild Hunt**, programmed entirely in **TASM assembly**.  
 It’s a passion project that demonstrates low-level programming complexity while recreating the fun and strategy of Gwent in a DOS-style game.  
@@ -62,16 +62,16 @@ Win **2 out of 3 rounds** by having more total points on your board than your op
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd TASM-Gwent
+   cd TASM/bin
    ```
 
 3. **Assemble and Run the Game:**  
    Make sure you have **Turbo Assembler (TASM)** and **Turbo Linker (TLINK)** set up in DOSBox or a compatible environment.
 
    ```bash
-   tasm gwent.asm
-   tlink gwent.obj
-   gwent.exe
+   tasm base.asm
+   tlink base.obj
+   base.exe
    ```
 
 ---
